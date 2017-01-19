@@ -6,7 +6,7 @@
     <h1 class="page-title">
         <i class="voyager-news"></i> {{ $dataType->display_name_plural }}
         <a href="{{ route('voyager.'.$dataType->slug.'.create') }}" class="btn btn-success">
-            <i class="voyager-plus"></i> Add New
+            <i class="voyager-plus"></i> Add News
         </a>
     </h1>
 @stop
